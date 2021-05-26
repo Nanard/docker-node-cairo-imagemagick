@@ -1,4 +1,4 @@
-FROM node:8.11.4-jessie
+FROM node:12-buster
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y imagemagick
